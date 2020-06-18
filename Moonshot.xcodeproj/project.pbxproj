@@ -13,6 +13,8 @@
 		AE3BCD662498ED1000AF0884 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3BCD652498ED1000AF0884 /* Assets.xcassets */; };
 		AE3BCD692498ED1000AF0884 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE3BCD682498ED1000AF0884 /* Preview Assets.xcassets */; };
 		AE3BCD6C2498ED1000AF0884 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE3BCD6A2498ED1000AF0884 /* LaunchScreen.storyboard */; };
+		AE473097249AEC390027BF05 /* MissionView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE473096249AEC390027BF05 /* MissionView.swift */; };
+		AE473099249AEFA60027BF05 /* AstronautView.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE473098249AEFA50027BF05 /* AstronautView.swift */; };
 		AE5DF2642499F459007D0CCB /* astronauts.json in Resources */ = {isa = PBXBuildFile; fileRef = AE5DF2622499F459007D0CCB /* astronauts.json */; };
 		AE5DF2652499F459007D0CCB /* missions.json in Resources */ = {isa = PBXBuildFile; fileRef = AE5DF2632499F459007D0CCB /* missions.json */; };
 		AE5DF2672499F4DB007D0CCB /* Astronaut.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE5DF2662499F4DB007D0CCB /* Astronaut.swift */; };
@@ -29,6 +31,8 @@
 		AE3BCD682498ED1000AF0884 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		AE3BCD6B2498ED1000AF0884 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		AE3BCD6D2498ED1000AF0884 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE473096249AEC390027BF05 /* MissionView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MissionView.swift; sourceTree = "<group>"; };
+		AE473098249AEFA50027BF05 /* AstronautView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AstronautView.swift; sourceTree = SOURCE_ROOT; };
 		AE5DF2622499F459007D0CCB /* astronauts.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = astronauts.json; sourceTree = "<group>"; };
 		AE5DF2632499F459007D0CCB /* missions.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = missions.json; sourceTree = "<group>"; };
 		AE5DF2662499F4DB007D0CCB /* Astronaut.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Astronaut.swift; sourceTree = "<group>"; };
@@ -69,6 +73,8 @@
 				AE3BCD5F2498ED0D00AF0884 /* AppDelegate.swift */,
 				AE3BCD612498ED0D00AF0884 /* SceneDelegate.swift */,
 				AE3BCD632498ED0D00AF0884 /* ContentView.swift */,
+				AE473096249AEC390027BF05 /* MissionView.swift */,
+				AE473098249AEFA50027BF05 /* AstronautView.swift */,
 				AE3BCD652498ED1000AF0884 /* Assets.xcassets */,
 				AE3BCD6A2498ED1000AF0884 /* LaunchScreen.storyboard */,
 				AE3BCD6D2498ED1000AF0884 /* Info.plist */,
@@ -163,7 +169,9 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				AE473097249AEC390027BF05 /* MissionView.swift in Sources */,
 				AE5DF26B2499F732007D0CCB /* Mission.swift in Sources */,
+				AE473099249AEFA60027BF05 /* AstronautView.swift in Sources */,
 				AE3BCD602498ED0D00AF0884 /* AppDelegate.swift in Sources */,
 				AE3BCD622498ED0D00AF0884 /* SceneDelegate.swift in Sources */,
 				AE5DF2692499F56B007D0CCB /* Bundle-Decodable.swift in Sources */,
