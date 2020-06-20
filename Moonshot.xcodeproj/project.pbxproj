@@ -78,11 +78,11 @@
 				AE3BCD652498ED1000AF0884 /* Assets.xcassets */,
 				AE3BCD6A2498ED1000AF0884 /* LaunchScreen.storyboard */,
 				AE3BCD6D2498ED1000AF0884 /* Info.plist */,
-				AE5DF2622499F459007D0CCB /* astronauts.json */,
 				AE5DF2662499F4DB007D0CCB /* Astronaut.swift */,
-				AE5DF2682499F56B007D0CCB /* Bundle-Decodable.swift */,
-				AE5DF2632499F459007D0CCB /* missions.json */,
 				AE5DF26A2499F732007D0CCB /* Mission.swift */,
+				AE5DF2682499F56B007D0CCB /* Bundle-Decodable.swift */,
+				AE5DF2622499F459007D0CCB /* astronauts.json */,
+				AE5DF2632499F459007D0CCB /* missions.json */,
 				AE3BCD672498ED1000AF0884 /* Preview Content */,
 			);
 			path = Moonshot;
